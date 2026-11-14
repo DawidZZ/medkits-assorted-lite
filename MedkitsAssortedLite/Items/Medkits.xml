@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+  <Item name="" identifier="mka_ifak" category="Medical" tags="smallitem,medkitsassorted" canflipx="false" showcontentsintooltip="true" scale="0.25" fireproof="true" description="" impactsoundtag="impact_soft">
+    <PreferredContainer primary="medcab" spawnprobability="0.1" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="15">
+      <RequiredItem identifier="organicfiber" amount="2" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <Price baseprice="50">
+      <Price storeidentifier="merchantmedical" multiplier="0.9" minavailable="4" />
+      <Price storeidentifier="merchantoutpost" minavailable="2" />
+      <Price storeidentifier="merchantcity" minavailable="2" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/Images/ifak_icon.png" sourcerect="0,0,143,199" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Images/ifak.png" sourcerect="0,0,100,139" origin="0.5,0.5" depth="0.6" />
+    <Body width="92" height="130" density="15" />
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="10,-75" handle1="0,58" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer capacity="4" maxstacksize="32" keepopenwhenequipped="true" movableframe="true">
+      <Containable items="medical,poison,opium,healthscanner,sulphuricacidsyringe,analgesictank,toxfilter,dialyzer" excludeditems="mobilecontainer,toolbox,crate,medkitsassorted,canexpire,syringegun" />
+    </ItemContainer>
+  </Item>
+
+  <Item name="" identifier="mka_medkit" category="Medical" tags="mediumitem,mobilecontainer,medkitsassorted" canflipx="false" showcontentsintooltip="true" scale="0.24" fireproof="true" description="" impactsoundtag="impact_soft">
+    <PreferredContainer primary="medcab" spawnprobability="0.1" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="medical" level="20" />
+      <RequiredItem identifier="organicfiber" amount="2" />
+      <RequiredItem identifier="plastic" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <Price baseprice="80">
+      <Price storeidentifier="merchantmedical" multiplier="0.9" minavailable="2" />
+      <Price storeidentifier="merchantcity" minavailable="1" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/Images/medkit.png" sourcerect="0,0,160,128" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Images/medkit.png" sourcerect="0,0,160,128" origin="0.5,0.5" depth="0.6" />
+    <Body width="150" height="118" density="15" />
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="10,-75" handle1="0,54" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer capacity="9" maxstacksize="32" keepopenwhenequipped="true" movableframe="true">
+      <Containable items="medical,poison,opium,healthscanner,sulphuricacidsyringe,analgesictank,toxfilter,dialyzer" excludeditems="mobilecontainer,toolbox,crate,medkitsassorted,canexpire,syringegun" />
+    </ItemContainer>
+  </Item>
+
+  <Item name="" identifier="mka_largemedicalbag" category="Medical" tags="mediumitem,mobilecontainer,medkitsassorted" canflipx="false" showcontentsintooltip="true" scale="0.34" fireproof="true" description="" impactsoundtag="impact_soft">
+    <Fabricate suitablefabricators="fabricator" requiredtime="25">
+      <RequiredSkill identifier="medical" level="30" />
+      <RequiredItem identifier="organicfiber" amount="3" />
+      <RequiredItem identifier="plastic" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="organicfiber" amount="2" />
+    </Deconstruct>
+    <Price baseprice="120" sold="false" />
+    <InventoryIcon texture="%ModDir%/Images/largemedicalbag.png" sourcerect="0,0,200,139" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Images/largemedicalbag.png" sourcerect="0,0,200,139" origin="0.5,0.5" depth="0.6" />
+    <Body width="190" height="125" density="15" />
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="10,-70" handle1="0,68" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer capacity="12" maxstacksize="32" keepopenwhenequipped="true" movableframe="true">
+      <Containable items="medical,poison,opium,healthscanner,sulphuricacidsyringe,analgesictank,toxfilter,dialyzer" excludeditems="mobilecontainer,toolbox,crate,medkitsassorted,canexpire,syringegun" />
+    </ItemContainer>
+  </Item>
+
+  <Item name="" identifier="mka_medicalbackpack" category="Medical" tags="mediumitem,mobilecontainer,largemobilecontainer,medkitsassorted" canflipx="false" showcontentsintooltip="true" scale="0.27" fireproof="true" description="" impactsoundtag="impact_soft">
+    <Fabricate suitablefabricators="fabricator" requiredtime="25">
+      <RequiredSkill identifier="medical" level="30" />
+      <RequiredItem identifier="organicfiber" amount="5" />
+      <RequiredItem identifier="plastic" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="organicfiber" amount="3" />
+    </Deconstruct>
+    <Price baseprice="240">
+      <Price storeidentifier="merchantmedical" multiplier="0.9" minavailable="1" />
+      <Price storeidentifier="merchantcity" minavailable="1" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/Images/medicalbackpack.png" sourcerect="0,0,128,217" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Images/medicalbackpack.png" sourcerect="0,0,128,217" origin="0.5,0.5" depth="0.6" />
+    <Body width="118" height="205" density="15" />
+    <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select">
+      <sprite name="MedicalBackpack" CanBeHiddenByOtherWearables="false" CanBeHiddenByItem="deepdivinglarge" texture="%ModDir%/Images/medicalbackpack_worn.png" sourcerect="0,0,88,218" limb="Torso" inherittexturescale="true" scale="0.5" origin="1.50,0.5" />
+      <SkillModifier skillidentifier="medical" skillvalue="10" />
+      <StatValue stattype="MovementSpeed" value="-0.1" />
+      <StatValue stattype="PropulsionSpeed" value="-0.1" />
+    </Wearable>
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-70" handle1="-15,100" handle2="15,100" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" allowswappingwhenpicked="false">
+      <StatusEffect type="OnActive" target="Character" SpeedMultiplier="0.7" setvalue="true" disabledeltatime="true" />
+      <StatValue stattype="PropulsionSpeed" value="-0.3" />
+    </Holdable>
+    <ItemContainer capacity="12" maxstacksize="32" depth="0.5">
+      <Containable items="medical,poison,opium,healthscanner,sulphuricacidsyringe,analgesictank,toxfilter,dialyzer" excludeditems="mobilecontainer,toolbox,crate,medkitsassorted,canexpire,syringegun" />
+    </ItemContainer>
+  </Item>
+
+  <Item name="" identifier="mka_traumabag" category="Medical" tags="mobilecontainer,medkitsassorted" canflipx="false" showcontentsintooltip="true" scale="0.36" fireproof="true" description="" impactsoundtag="impact_soft">
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="medical" level="40" />
+      <RequiredItem identifier="organicfiber" amount="4" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="organicfiber" amount="2" />
+    </Deconstruct>
+    <Price baseprice="180">
+      <Price storeidentifier="merchantmedical" multiplier="0.9" minavailable="1" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/Images/traumabag.png" sourcerect="0,0,240,128" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Images/traumabag.png" sourcerect="0,0,240,128" origin="0.5,0.5" depth="0.56" />
+    <Body width="130" radius="55" density="20" friction="1.0" restitution="0.01" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="0,57" handle2="0,57" aimable="false" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="InWater" target="This" Condition="-0.56">
+        <Conditional entitytype="eq Character" targetcontainer="true" />
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <DropContainedItems />
+        <Remove />
+      </StatusEffect>
+    </Holdable>
+    <ItemContainer capacity="20" maxstacksize="32" keepopenwhenequipped="true" movableframe="true">
+      <Containable items="medical,poison,opium,healthscanner,sulphuricacidsyringe,analgesictank,toxfilter,dialyzer" excludeditems="mobilecontainer,toolbox,crate,medkitsassorted,canexpire,syringegun" />
+    </ItemContainer>
+  </Item>
+
+  <Item name="" identifier="mka_traumabag_waterproof" category="Medical" tags="mobilecontainer,medkitsassorted" canflipx="false" showcontentsintooltip="true" scale="0.36" fireproof="true" waterproof="true" description="" impactsoundtag="impact_soft">
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="medical" level="40" />
+      <RequiredItem identifier="organicfiber" amount="3" />
+      <RequiredItem identifier="plastic" amount="2" />
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="organicfiber" />
+      <Item identifier="plastic" />
+    </Deconstruct>
+    <Price baseprice="240">
+      <Price storeidentifier="merchantmedical" multiplier="0.9" minavailable="1" />
+    </Price>
+    <InventoryIcon texture="%ModDir%/Images/traumabag_waterproof.png" sourcerect="0,0,240,132" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Images/traumabag_waterproof.png" sourcerect="0,0,240,132" origin="0.5,0.5" depth="0.56" />
+    <Body width="230" height="110" density="20" friction="1.0" restitution="0.01" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="0,58" handle2="0,58" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer capacity="16" maxstacksize="32" keepopenwhenequipped="true" movableframe="true">
+      <Containable items="medical,poison,opium,healthscanner,sulphuricacidsyringe,analgesictank,toxfilter,dialyzer" excludeditems="mobilecontainer,toolbox,crate,medkitsassorted,canexpire,syringegun" />
+    </ItemContainer>
+  </Item>
+
+  <Item name="" identifier="mka_firstrespondervest" category="Equipment" tags="smallitem,clothing" canflipx="false" scale="0.3" fireproof="false" description="" impactsoundtag="impact_soft">
+    <Fabricate suitablefabricators="fabricator" requiredtime="30">
+      <RequiredSkill identifier="medical" level="30" />
+      <RequiredItem identifier="ballisticfiber" amount="2" />
+      <RequiredItem identifier="organicfiber" amount="2" />
+    </Fabricate>
+    <Deconstruct time="30">
+      <Item identifier="ballisticfiber" />
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <Price baseprice="360" sold="false" />
+    <InventoryIcon texture="%ModDir%/Images/firstrespondervest.png" sourcerect="0,0,160,187" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Images/firstrespondervest.png" sourcerect="0,0,160,187" origin="0.5,0.5" depth="0.6" />
+    <Body width="140" height="170" density="25" />
+    <Wearable slots="Any,OuterClothes" msg="ItemMsgPickUpSelect">
+      <damagemodifier afflictiontypes="burn" armorsector="0.0,360.0" damagemultiplier="0.9" />
+      <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictionidentifiers="bitewounds,explosiondamage" armorsector="0.0,360.0" damagemultiplier="0.7" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.4" damagesound="LimbArmor" deflectprojectiles="true" />
+      <sprite name="First Responder Vest Wearable" texture="%ModDir%/Images/firstrespondervest_worn.png" limb="Torso" hidelimb="false" inheritscale="true" scale="0.65" inheritorigin="false" origin="0.5,0.5" inheritsourcerect="false" sourcerect="0,0,130,180" />
+    </Wearable>
+    <ItemContainer capacity="6" maxstacksize="32">
+      <Containable items="medical,poison,opium,healthscanner,sulphuricacidsyringe,analgesictank,toxfilter,dialyzer" excludeditems="mobilecontainer,toolbox,crate,medkitsassorted,canexpire,syringegun" />
+      <SlotIcon slotindex="6" texture="%ModDir%/Images/sloticon_bandage.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+      <SlotIcon slotindex="7" texture="%ModDir%/Images/sloticon_bandage.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+      <SubContainer capacity="2">
+        <Containable items="antibleeding1,antibleeding2" />
+      </SubContainer>
+    </ItemContainer>
+  </Item>
+
+</Items>

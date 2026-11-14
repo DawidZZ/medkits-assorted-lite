@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Polish" nowhitespace="false" translatedname="Polski">
+  <entityname.mka_ifak>IFAK</entityname.mka_ifak>
+  <entitydescription.mka_ifak>IFAK (indywidualny zestaw pierwszej pomocy): mała saszetka pierwszej pomocy dla każdego członka załogi. Mieści tylko przedmioty medyczne i zmieści się w plecaku albo pasie narzędziowym.</entitydescription.mka_ifak>
+
+  <entityname.mka_medkit>Apteczka</entityname.mka_medkit>
+  <entitydescription.mka_medkit>Standardowa apteczka medyka noszona w jednej ręce. Mieści tylko przedmioty medyczne.</entitydescription.mka_medkit>
+
+  <entityname.mka_medicalbackpack>Plecak medyczny</entityname.mka_medicalbackpack>
+  <entitydescription.mka_medicalbackpack>Plecak medyka zakładany w slocie torby. Mieści tylko przedmioty medyczne, a dobrze zorganizowane kieszenie zwiększają umiejętność medyczną.</entitydescription.mka_medicalbackpack>
+
+  <entityname.mka_traumabag>Torba ratownicza</entityname.mka_traumabag>
+  <entitydescription.mka_traumabag>Duża torba ratunkowa, którą trzeba nieść w obu rękach. Mieści mnóstwo środków medycznych i nic poza nimi. Nie jest wodoodporna: zbyt długo trzymana w wodzie rozpada się.</entitydescription.mka_traumabag>
+
+  <entityname.mka_traumabag_waterproof>Wodoodporna torba ratownicza</entityname.mka_traumabag_waterproof>
+  <entitydescription.mka_traumabag_waterproof>Twarda, wodoodporna skrzynka ratownicza, którą trzeba nieść w obu rękach. Mieści trochę mniej niż zwykła torba ratownicza, ale chroni zawartość przed wodą. Mieści tylko przedmioty medyczne.</entitydescription.mka_traumabag_waterproof>
+
+  <entityname.mka_largemedicalbag>Duża torba medyczna</entityname.mka_largemedicalbag>
+  <entitydescription.mka_largemedicalbag>Pojemna torba medyka, noszona w jednej ręce albo w ekwipunku. Mieści tylko przedmioty medyczne.</entitydescription.mka_largemedicalbag>
+
+  <entityname.mka_firstrespondervest>Kamizelka taktyczna ratownika</entityname.mka_firstrespondervest>
+  <entitydescription.mka_firstrespondervest>Lekka kamizelka taktyczna dla medyków pracujących na pierwszej linii. Chroni słabiej niż kamizelka kuloodporna, ale ma kieszenie na środki medyczne i osobne kieszonki na bandaże.</entitydescription.mka_firstrespondervest>
+</infotexts>

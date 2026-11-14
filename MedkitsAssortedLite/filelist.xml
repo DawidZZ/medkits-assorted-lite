@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Medkits Assorted Lite" modversion="1.0.0" corepackage="false" gameversion="1.13.5.0">
+  <Item file="%ModDir%/Items/Medkits.xml" />
+  <Text file="%ModDir%/Texts/English.xml" />
+  <Text file="%ModDir%/Texts/Polish.xml" />
+  <Other file="%ModDir%/Images/ifak.png" />
+  <Other file="%ModDir%/Images/ifak_icon.png" />
+  <Other file="%ModDir%/Images/medkit.png" />
+  <Other file="%ModDir%/Images/largemedicalbag.png" />
+  <Other file="%ModDir%/Images/medicalbackpack.png" />
+  <Other file="%ModDir%/Images/medicalbackpack_worn.png" />
+  <Other file="%ModDir%/Images/traumabag.png" />
+  <Other file="%ModDir%/Images/traumabag_waterproof.png" />
+  <Other file="%ModDir%/Images/firstrespondervest.png" />
+  <Other file="%ModDir%/Images/firstrespondervest_worn.png" />
+  <Other file="%ModDir%/Images/sloticon_bandage.png" />
+</contentpackage>

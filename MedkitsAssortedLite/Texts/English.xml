@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+  <entityname.mka_ifak>IFAK</entityname.mka_ifak>
+  <entitydescription.mka_ifak>IFAK (Individual First Aid Kit): a small first aid pouch for every crew member. Holds medical supplies only and fits in a backpack or a toolbelt.</entitydescription.mka_ifak>
+
+  <entityname.mka_medkit>Medkit</entityname.mka_medkit>
+  <entitydescription.mka_medkit>A standard medic's kit. Holds medical supplies only.</entitydescription.mka_medkit>
+
+  <entityname.mka_medicalbackpack>Medical Backpack</entityname.mka_medicalbackpack>
+  <entitydescription.mka_medicalbackpack>A medic's backpack worn in the bag slot. Holds medical supplies only, and its well-organized pouches give a bonus to Medical skill.</entitydescription.mka_medicalbackpack>
+
+  <entityname.mka_traumabag>Trauma Bag</entityname.mka_traumabag>
+  <entitydescription.mka_traumabag>A large emergency bag that has to be carried with both hands. Holds plenty of medical supplies, and nothing else. Not waterproof: it falls apart if left in water for too long.</entitydescription.mka_traumabag>
+
+  <entityname.mka_traumabag_waterproof>Waterproof Trauma Bag</entityname.mka_traumabag_waterproof>
+  <entitydescription.mka_traumabag_waterproof>A hard-shell, waterproof trauma case that has to be carried with both hands. Holds a little less than a regular trauma bag, but keeps its contents dry. Holds medical supplies only.</entitydescription.mka_traumabag_waterproof>
+
+  <entityname.mka_largemedicalbag>Large Medical Bag</entityname.mka_largemedicalbag>
+  <entitydescription.mka_largemedicalbag>A roomy medic's bag, carried in one hand or kept in the inventory. Holds medical supplies only.</entitydescription.mka_largemedicalbag>
+
+  <entityname.mka_firstrespondervest>First Responder Tactical Vest</entityname.mka_firstrespondervest>
+  <entitydescription.mka_firstrespondervest>A light tactical vest made for medics working on the front line. Offers less protection than body armor, but has pouches for medical supplies and dedicated pockets for bandages.</entitydescription.mka_firstrespondervest>
+</infotexts>
