@@ -111,8 +111,11 @@
     <Sprite texture="%ModDir%/Images/traumabag.png" sourcerect="0,0,240,128" origin="0.5,0.5" depth="0.56" />
     <Body width="130" radius="55" density="20" friction="1.0" restitution="0.01" />
     <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="0,57" handle2="0,57" aimable="false" msg="ItemMsgPickUpSelect">
-      <StatusEffect type="InWater" target="This" Condition="-0.56">
+      <StatusEffect type="InWater" target="This" interval="1" disabledeltatime="true" Condition="-0.56">
         <Conditional entitytype="eq Character" targetcontainer="true" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" interval="1" disabledeltatime="true" Condition="-0.56">
+        <Conditional InWater="true" />
       </StatusEffect>
       <StatusEffect type="OnBroken" target="This">
         <DropContainedItems />
