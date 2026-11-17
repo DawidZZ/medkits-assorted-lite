@@ -48,7 +48,7 @@ Thanks to this, Lite doesn't conflict with mods that change the medic talent tre
 - Item identifiers (`mka_*`) are the same, so saves keep working when switching in either direction.
   Going from full to Lite only removes the surgical kits.
 - **Don't enable both at once** — they define the same items.
-- Full version: [GitHub](https://github.com/DawidZZ/medkits-assorted) · Steam Workshop: *link coming soon*
+- Full version: [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3841432149) · [GitHub](https://github.com/DawidZZ/medkits-assorted)
 - The images are copies from the full version (the sources and the scripts that generate them live there). Make item
   changes in the full version first, then port them here.
 
@@ -63,6 +63,9 @@ Then in game: Mods → enable "Medkits Assorted Lite".
 `workshop/` holds the Steam Workshop description (`description.bbcode`, Steam BBCode) and the item infographics it
 embeds (`images/`, copied from `medkits-assorted-infographics/output/medkits-assorted-lite/en/`; recopy after
 rerunning it).
+The description links the images through `raw.githubusercontent.com` pinned to a commit hash, because Steam caches
+images by URL: after pushing new images, replace the hash in `description.bbcode` with the pushed commit
+(`git rev-parse origin/main`).
 
 ## License
 
