@@ -1,7 +1,7 @@
 # Medkits Assorted Lite
 
 A Barotrauma mod: medkits and medical bags that accept medical items only.
-The **Lite** version of the full [Medkits Assorted](https://github.com/DawidZZ/medkits-assorted) mod — pure XML, **no Lua (LuaCs) and no overrides**
+The **Lite** version of the full **Medkits Assorted** mod ([Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3841432149) · [GitHub](https://github.com/DawidZZ/medkits-assorted)) — pure XML, **no Lua (LuaCs) and no overrides**
 of game files. Works with the vanilla game and with Neurotrauma / Neurotrauma CS (their medical items fit in the kits).
 
 ## AI use
