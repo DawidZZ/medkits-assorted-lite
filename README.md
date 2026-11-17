@@ -4,6 +4,21 @@ A Barotrauma mod: medkits and medical bags that accept medical items only.
 The **Lite** version of the full [Medkits Assorted](https://github.com/DawidZZ/medkits-assorted) mod — pure XML, **no Lua (LuaCs) and no overrides**
 of game files. Works with the vanilla game and with Neurotrauma / Neurotrauma CS (their medical items fit in the kits).
 
+## AI use
+
+> **AI use disclaimer:**
+> The item sprites were generated with AI, some with minor manual edits.
+> The infographics and the mod's cover are rendered by a script written by an AI coding agent.
+> The mod's XML was written with the help of an AI coding agent, and I reviewed all of it myself (I'm a software
+> developer by profession).
+> Design, testing and balancing were done by me.
+
+> **Author's note:** I know AI is controversial, and I'm not a fan of AI "art" myself. I only decided to publish the mod
+> because the final result doesn't have that "AI slop" feel, especially at Barotrauma's item scale (with the possible
+> exception of the First Responder Vest, whose front still looks like slop). That being said, as a programmer I can
+> vouch for AI code: coding agents have improved significantly over the past *few* years, and in many cases they write
+> higher-quality code than many programmers do.
+
 ## Items
 
 | Item | Slots | Carried |
@@ -14,7 +29,7 @@ of game files. Works with the vanilla game and with Neurotrauma / Neurotrauma CS
 | Medical Backpack | 12, +10 Medical skill | bag slot |
 | Trauma Bag | 20, breaks down in water | both hands |
 | Waterproof Trauma Bag | 16 | both hands |
-| First Responder Tactical Vest | 6 + 2 for bandages | outer clothing slot |
+| First Responder Tactical Vest | 6 + 2 for bandages, light armor | outer clothing slot |
 
 ## What's missing compared to the full version
 
@@ -33,6 +48,7 @@ Thanks to this, Lite doesn't conflict with mods that change the medic talent tre
 - Item identifiers (`mka_*`) are the same, so saves keep working when switching in either direction.
   Going from full to Lite only removes the surgical kits.
 - **Don't enable both at once** — they define the same items.
+- Full version: [GitHub](https://github.com/DawidZZ/medkits-assorted) · Steam Workshop: *link coming soon*
 - The images are copies from the full version (the sources and the scripts that generate them live there). Make item
   changes in the full version first, then port them here.
 
@@ -43,6 +59,10 @@ scripts/link-localmods.sh   # symlinks the mod into <game>/LocalMods/
 ```
 
 Then in game: Mods → enable "Medkits Assorted Lite".
+
+`workshop/` holds the Steam Workshop description (`description.bbcode`, Steam BBCode) and the item infographics it
+embeds (`images/`, copied from `medkits-assorted-infographics/output/medkits-assorted-lite/en/`; recopy after
+rerunning it).
 
 ## License
 
