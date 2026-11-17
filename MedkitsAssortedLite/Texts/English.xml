@@ -13,11 +13,11 @@
   <entitydescription.mka_traumabag>A large emergency bag that has to be carried with both hands. Holds plenty of medical supplies, and nothing else. Not waterproof: it falls apart if left in water for too long.</entitydescription.mka_traumabag>
 
   <entityname.mka_traumabag_waterproof>Waterproof Trauma Bag</entityname.mka_traumabag_waterproof>
-  <entitydescription.mka_traumabag_waterproof>A hard-shell, waterproof trauma case that has to be carried with both hands. Holds a little less than a regular trauma bag, but keeps its contents dry. Holds medical supplies only.</entitydescription.mka_traumabag_waterproof>
+  <entitydescription.mka_traumabag_waterproof>A hard-shell, waterproof trauma case that has to be carried with both hands. Holds a little less than a regular trauma bag, but keeps its contents dry and doesn't degrade in water. Holds medical supplies only.</entitydescription.mka_traumabag_waterproof>
 
   <entityname.mka_largemedicalbag>Large Medical Bag</entityname.mka_largemedicalbag>
   <entitydescription.mka_largemedicalbag>A roomy medic's bag, carried in one hand or kept in the inventory. Holds medical supplies only.</entitydescription.mka_largemedicalbag>
 
   <entityname.mka_firstrespondervest>First Responder Tactical Vest</entityname.mka_firstrespondervest>
-  <entitydescription.mka_firstrespondervest>A light tactical vest made for medics working on the front line. Offers less protection than body armor, but has pouches for medical supplies and dedicated pockets for bandages.</entitydescription.mka_firstrespondervest>
+  <entitydescription.mka_firstrespondervest>A light tactical vest made for medics working on the front line. Offers less protection than standard body armor, but has pouches for medical supplies and dedicated slots for bandages.</entitydescription.mka_firstrespondervest>
 </infotexts>

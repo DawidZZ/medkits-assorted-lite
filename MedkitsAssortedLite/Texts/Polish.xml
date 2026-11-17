@@ -13,11 +13,11 @@
   <entitydescription.mka_traumabag>Duża torba ratunkowa, którą trzeba nieść w obu rękach. Mieści mnóstwo środków medycznych i nic poza nimi. Nie jest wodoodporna: zbyt długo trzymana w wodzie rozpada się.</entitydescription.mka_traumabag>
 
   <entityname.mka_traumabag_waterproof>Wodoodporna torba ratownicza</entityname.mka_traumabag_waterproof>
-  <entitydescription.mka_traumabag_waterproof>Twarda, wodoodporna skrzynka ratownicza, którą trzeba nieść w obu rękach. Mieści trochę mniej niż zwykła torba ratownicza, ale chroni zawartość przed wodą. Mieści tylko przedmioty medyczne.</entitydescription.mka_traumabag_waterproof>
+  <entitydescription.mka_traumabag_waterproof>Twarda, wodoodporna skrzynka ratownicza, którą trzeba nieść w obu rękach. Mieści trochę mniej niż zwykła torba ratownicza, ale nie traci wytrzymałości pod wodą i chroni zawartość przed zamoczeniem. Mieści tylko przedmioty medyczne.</entitydescription.mka_traumabag_waterproof>
 
   <entityname.mka_largemedicalbag>Duża torba medyczna</entityname.mka_largemedicalbag>
   <entitydescription.mka_largemedicalbag>Pojemna torba medyka, noszona w jednej ręce albo w ekwipunku. Mieści tylko przedmioty medyczne.</entitydescription.mka_largemedicalbag>
 
   <entityname.mka_firstrespondervest>Kamizelka taktyczna ratownika</entityname.mka_firstrespondervest>
-  <entitydescription.mka_firstrespondervest>Lekka kamizelka taktyczna dla medyków pracujących na pierwszej linii. Chroni słabiej niż kamizelka kuloodporna, ale ma kieszenie na środki medyczne i osobne kieszonki na bandaże.</entitydescription.mka_firstrespondervest>
+  <entitydescription.mka_firstrespondervest>Lekka kamizelka taktyczna dla medyków pracujących na pierwszej linii. Chroni słabiej niż standardowa kamizelka kuloodporna, ale ma kieszenie na środki medyczne i osobne kieszonki na bandaże.</entitydescription.mka_firstrespondervest>
 </infotexts>
